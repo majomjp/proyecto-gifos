@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-day.css">
+    <link rel="stylesheet" href="css/style-dark.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <title>Proyecto GIFOS maria jose</title>
+</head>
+<body id="body" class="body">
+    
+    <header class="top-bar" id="top-bar">Bienvenidos/as a Gifos.com!------Donde los Gifos están.//////Número de visitas: <span id="numero"></span>
+       
+    </header>
+
+<nav id="menu">
+    <img id="logo" class="logo" src="assets/gifOF_logo.png" alt="giphy_logo">
+    <ul>
+        <li><a href="creategifos.html"><button class="btn comun" id="create">Crear Guifos</button></a></li>
+        <li><button class="btn comun" id="change-theme">Elegir Tema<img class="forward" src="assets/dropdown.svg" alt="forward">
+            <ul id="themes" class="themes" > 
+                <li><div class="sailor" id="btn-day">Sailor Day</div></li>
+                <li><div class="sailor" id= "btn-night">Sailor Night</div></li>
+            </ul>
+        </button></li>
+        <li><a href="#" id="mygifs" class="comun mygifs"><u class="comun">M</u>is Guifos</a></li>
+    </ul>
+</nav>
+
+<section class="searchcont" id="searchcont">
+    <div class="top-bar"><h2>Buscar</h2></div>
+    <input type="text" class="inp inp-sty" id="qsearch" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"> 
+    <button id="btn-search" class="buscar"><img id="lens" src="assets/lupa_inactive.svg" alt="lupa">Buscar</button>
+
+    <div class = "hidden" id ="suggestSearch">
+        <button class="suggestSearch-option" id ="suggestSearch-option1"></button>
+        <button class="suggestSearch-option" id ="suggestSearch-option2"></button>
+        <button class="suggestSearch-option" id ="suggestSearch-option3"></button>
+    </div>
+
+</section>
+
+<section id="busqueda-gif"class= "hidden sections">
+    <h4 class="titles-sty sty" id="result_title"></h4>
+    <div id="results" class="suggestions-result"></div>
+
+</section>
+
+<section id="suggestions" class="sections">
+    <h4 class="titles-sty sty" id="qsearch">Hoy te sugerimos: </h4>
+    <div id="suggestions-ok" class="suggestions-result"></div>
+</section>
+
+
+<section id="trends" class="sections">
+    <h4 class="titles-sty sty" id="qsearch">Tendencias</h4>
+    <div id="trends-ok" class="suggestions-result"></div>
+</section>
+
+
+<!-- <section id="trend" class="sections">
+    <h4 class="titles" id="trending">Tendencias: </h4>
+    <div id="space_trend" class="space_result"></div>
+</section> -->
+
+
+
+    
+    
+
+
+
+
+
+    <script src="js/script.js"> </script>
+</body>
+</html>

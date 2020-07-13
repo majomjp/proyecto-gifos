@@ -1,0 +1,75 @@
+.dark{
+    background:  #110038;
+    font-family:'Chakra Petch', sans-serif;
+}
+.dark .top-bar{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+}
+.dark .comun{
+    color: #FFFFFF;
+}
+.dark .btn{
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    height: 36px;
+    width: 140px;
+    cursor: pointer;
+}
+.dark .forward{
+    transform: rotate(-270deg);   
+}
+.dark .themes{
+    background: #B4B4B4;
+}
+.dark .sailor{
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+.dark .searchcont{
+    display: block;
+    width: 84%;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    height: 60%;
+    margin: 5% 10% 1% 8%;
+    padding: 1% 1% 1% 2%;
+}
+
+.dark .buscar{
+    background: #B4B4B4;  
+    color: #8F8F8F;
+}
+.dark .titles-sty{
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+.dark .vermas{
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+.dark .titlehashtag{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    padding-left: 1%;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.dark .downhover{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    padding-left: 1%;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.dark .sailor:hover{
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
